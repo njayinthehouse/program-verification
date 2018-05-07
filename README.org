@@ -1,0 +1,8 @@
+#+TITLE: Program Verification
+#+AUTHOR: Nitin John Raj
+
+Proof verification systems have existed for a while. Interactive theorem solvers like Coq and Agda allow programmers to verify primitive mathematical proofs. Certain parts of proofs can be automated in these theorem solvers; these are called tactics. We also have various powerful tools for automatic proof solving. Z3 is a satisfiability theorem solver built by Microsoft with various applications. 
+
+For the purposes of correctness and security, languages which can prove the correctness and termination of their programs are in demand. F* is a language which uses dependent and refinement typing to write programs along with their proofs; the automation in this process is unprecedented. F* is currently a keen interest of mine.
+
+In order to understand these technologies, I've decided to start bottom up. I have a base in propositional logic, though I shall be exploring several other logic frameworks as well. I'll be following [[http://www.pm.inf.ethz.ch/education/courses/program-verification.html][ETH Zurich's course on program verification]] to get a hang of each layer of abstraction. My notes and solutions to the exercises are what this repository is for.
